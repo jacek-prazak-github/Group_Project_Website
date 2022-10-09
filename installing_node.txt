@@ -1,0 +1,13 @@
+1.Initialize node package Manager in console
+npm init -y
+
+2.Install dependencies for server (express) and views (ejs)
+npm i express ejs 
+
+(mongoose for mongoDB // firefose for firebase)
+
+3.Install devdependencies for auto refresh on save(nodemon)
+npm i --save-dev nodemon
+
+4.To automatically refresh app.js and run application type:
+npm run devStart

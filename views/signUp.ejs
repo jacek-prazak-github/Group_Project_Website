@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <script src="script/script.js"></script>
+    <title>Sign up</title>
+</head>
+<body>
+    <main>
+        <section id="sign_up">
+            <form id="sign_up_form" autocomplete="off">
+                <img src="img/mini_logo.jpg" style="margin-bottom: 5px;">
+                <div class="login_form">
+                    <input id="name" type="text" placeholder=" ">
+                    <label for="name">Name</label>
+                </div>
+                <div class="login_form">
+                    <input id="lastname" type="text" placeholder=" ">
+                    <label for="lastname">Last name</label>
+                </div>
+                <div class="login_form">
+                    <input id="username" type="text" placeholder=" ">
+                    <label for="username">Email</label>
+                </div>
+                <div class="login_form">
+                    <input id="password" type="password" placeholder=" ">
+                    <label for="password">Password</label>
+                </div>
+                <div class="login_form">
+                    <input id="confirmPassword" type="password" placeholder=" ">
+                    <label for="confirmPassword">Confirm Password</label>
+                </div>
+                <button formaction="/" onclick="hello()">Create</button>
+                <button formaction="/">Go back</button>
+            </form>
+
+
+
+
+            <!--form id="sign_up_form">
+                <label for="email">Email:</label>
+                <input type="text" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" required>
+                <label for="confirm_password">Confirm password:</label>
+                <input type="password" name="confirm_password" required>
+                <button>Sign up</button>
+            </form-->
+            
+        </section>
+        
+    </main>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
